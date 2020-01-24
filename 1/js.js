@@ -107,6 +107,14 @@ var userPass = prompt('Введите пароль')
 
 var userArr = [User, userPass]
 
+var check = checkUser(userArr, users)
+
+if (check) {
+    alert('Вы не в системе')
+}else{
+    alert('Вы не в системе')
+}
+
 
 
 
